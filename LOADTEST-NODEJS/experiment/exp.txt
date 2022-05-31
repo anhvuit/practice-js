@@ -1,0 +1,23 @@
+
+I. Normal situation - Single Thread
+Result => 151k requests in 11.01s, 36 MB read
+
+II. Using pm2 to load 4 balancer. harware: macmini m1 
+Result => 311k requests in 11.01s, 73.9 MB read
+
+
+III. Using pm2 to load 4 balancer. harware: macmini m1 AND helmet middleware
+Result => 228k requests in 11.01s, 446 MB read 
+
+
+
+ADDING MORGAN PACKAGE
+- 234k requests in 11.01s, 55.7 MB read
+- 226k requests in 11.01s, 53.7 MB read
+- 217k requests in 10.01s, 51.6 MB read
+
+
+10k users concurrent 
+78k requests in 16.68s, 11.6 MB read
+19k errors (0 timeouts)
+
