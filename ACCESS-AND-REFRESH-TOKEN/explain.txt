@@ -1,5 +1,7 @@
 
 
+Tutorial Youtube Clip: https://www.youtube.com/watch?v=7fKjiBcBj3E
+
 Question ?
 
 Why we have AccessToken, but also need RefreshToken ?
@@ -11,3 +13,7 @@ Image that when u play facebook, and suddenly have a popup that kick u out the l
 
 **** Warning Techinical Risks **** 
 Client can set the timezone
+
+
+Very First Method
+=> Before request to server, we need verify AccessToken
