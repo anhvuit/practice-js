@@ -1,0 +1,13 @@
+
+
+Question ?
+
+Why we have AccessToken, but also need RefreshToken ?
+
+Image that when u play facebook, and suddenly have a popup that kick u out the login page ? F*ck up the app
+
+=> So RefreshToken was born to prevent the bad UX.
+
+
+**** Warning Techinical Risks **** 
+Client can set the timezone
